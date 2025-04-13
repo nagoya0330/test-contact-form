@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #8e6d53;
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #8e6d53;
+    text-decoration: none;
+}
+
+.main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #8e6d53;
+    text-align: center;
+}
+
+.confirm-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.confirm-row {
+    display: flex;
+    gap: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.confirm-row:last-child {
+    border-bottom: none;
+}
+
+.confirm-label {
+    width: 180px;
+    background-color: #c8b7a6;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border-right: 1px solid #eee;
+}
+
+.confirm-value {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #8e6d53;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    background-color: #8e6d53;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-back {
+    background-color: transparent;
+    color: #8e6d53;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: 2px solid #8e6d53;
+    cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-back:hover {
+    opacity: 0.9;
+}

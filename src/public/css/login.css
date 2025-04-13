@@ -1,0 +1,151 @@
+.header {
+    background: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    position: relative;
+    height: 60px;
+}
+
+.header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8e6d53;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav__link {
+    color: #5c4433;
+    text-decoration: none;
+    padding: 6px 14px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-form__content {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fffaf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* 見出し */
+.login-form__heading {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a1866b;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.form {
+    width: 95%;
+    max-width: 600px;
+    height: 520px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid #e0d6c8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form__group {
+    margin-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__group-tittle {
+    margin-bottom: 8px;
+}
+
+.form__label--item {
+    font-weight: bold;
+    font-size: 15px;
+    color: #5c4433;
+    text-align: left;
+    display: block;
+    padding-left: 10px;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.form__input--text input:focus {
+    outline: none;
+    border-color: #f5b041;
+    box-shadow: 0 0 4px #f5b04155;
+}
+
+.form__error {
+    height: 16px;
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.form__button-submit {
+    background-color: #837060;
+    color: #fff;
+    padding: 11px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    background-color: #837060;
+}
